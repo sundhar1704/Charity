@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import CausesHeader from "../components/Causesheader";
-import CauseRow from "../components/Causerow";
+import CausesHeader from "../components/CausesHeader";
+import CauseRow from "../components/CauseRow";
 
 // Replace each import with your own linked image for that cause
 import HealthcareImg from "../assets/images/Depth 6, Frame 7.jpg";

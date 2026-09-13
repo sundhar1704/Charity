@@ -1,4 +1,4 @@
-import "./Visionmission.css";
+import "./VisionMission.css";
 
 export default function VisionMission() {
   return (

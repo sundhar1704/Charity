@@ -1,4 +1,4 @@
-import "./Volunteerhero.css";
+import "./VolunteerHero.css";
 
 // Replace src with your linked illustration
 import volunteerHeroImg from "../assets/images/Depth 4, Frame 0.jpg";

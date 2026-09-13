@@ -1,4 +1,4 @@
-import "./Storybanner.css";
+import "./StoryBanner.css";
 import storybannerImg from "../assets/images/Depth 6, Frame 6.jpg";
 
 export default function StoryBanner() {
