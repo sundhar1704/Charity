@@ -1,0 +1,64 @@
+.ways-to-help {
+  padding: 10px 0 30px;
+}
+
+.ways-to-help h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.ways-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.way-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 200px;
+  flex: 1;
+  padding: 16px 18px;
+  border-radius: 8px;
+  border: 1px solid;
+  font-weight: 700;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+.way-icon {
+  font-size: 18px;
+}
+
+.way-blue {
+  border-color: #108ded;
+  color: #108ded;
+}
+
+.way-green {
+  border-color: #1a7f37;
+  color: #1a7f37;
+}
+
+.way-orange {
+  border-color: #e67700;
+  color: #e67700;
+}
+
+.way-purple {
+  border-color: #9333ea;
+  color: #9333ea;
+}
+
+.way-cyan {
+  border-color: #0891b2;
+  color: #0891b2;
+}
+
+@media (max-width: 900px) {
+  .ways-grid {
+    flex-direction: column;
+  }
+}

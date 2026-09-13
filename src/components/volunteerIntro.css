@@ -1,0 +1,15 @@
+.volunteer-intro {
+  padding: 30px 0 20px;
+}
+
+.volunteer-intro h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.volunteer-intro p {
+  font-size: 15px;
+  color: var(--color-text-muted);
+  max-width: 1000px;
+}

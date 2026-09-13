@@ -1,0 +1,13 @@
+.vision-mission {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.vision-mission-inner {
+  max-width: 900px;
+}
+
+.vision-mission-inner p {
+  font-size: 16px;
+  color: var(--color-text-muted);
+}

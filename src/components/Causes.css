@@ -1,0 +1,60 @@
+.causes {
+  padding: 40px 0 60px;
+}
+
+.causes-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 36px;
+}
+
+.cause-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.cause-card-img {
+  width: 100%;
+  height: 263px;
+  background: var(--color-bg-soft);
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.cause-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.cause-card p {
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.causes-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.causes-btn-donate {
+  width: 166px;
+}
+
+.causes-btn-learn {
+  width: 166px;
+}
+
+@media (max-width: 1000px) {
+  .causes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .causes-grid {
+    grid-template-columns: 1fr;
+  }
+}

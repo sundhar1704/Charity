@@ -1,0 +1,15 @@
+.causes-header {
+  padding: 50px 0 30px;
+}
+
+.causes-header h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.causes-header p {
+  font-size: 15px;
+  color: var(--color-text-muted);
+  max-width: 900px;
+}   

@@ -1,0 +1,12 @@
+.volunteer-photo {
+  padding: 10px 0 30px;
+}
+
+.volunteer-photo-img {
+  width: 100%;
+  height: auto;
+  min-height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--color-bg-soft);
+}

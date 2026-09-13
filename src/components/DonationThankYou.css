@@ -1,0 +1,153 @@
+.thank-you {
+  padding: 40px 0 60px;
+  text-align: center;
+}
+
+.thank-you-hero {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--color-bg-soft);
+  margin-bottom: 32px;
+}
+
+.thank-you-title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.thank-you-subtitle {
+  font-size: 16px;
+  color: var(--color-text-muted);
+  margin-bottom: 40px;
+}
+
+.thank-you h2 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.thank-you-impact-text {
+  font-size: 15px;
+  color: var(--color-text-muted);
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.impact-item-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: var(--color-bg-soft);
+  margin-bottom: 12px;
+}
+
+.impact-item-title {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.impact-item-text {
+  font-size: 13px;
+  color: #1a7f37;
+}
+
+.thank-you-actions {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.btn-thank-you {
+  height: 50px;
+  padding: 0 24px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-thank-you-solid {
+  background: #1a7f37;
+  color: #ffffff;
+}
+
+.btn-thank-you-outline {
+  background: #e8f5e9;
+  color: #1a1a2e;
+  border: 1px solid #b7e0bc;
+}
+
+.thank-you-followup {
+  font-size: 14px;
+  color: var(--color-text-muted);
+  max-width: 700px;
+  margin: 0 auto 32px;
+}
+
+.thank-you h3 {
+  font-size: 17px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.email-updates-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 0 20px;
+  border: 1px solid #d7ead9;
+  border-radius: 8px;
+  background: #f5fbf6;
+  font-size: 15px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+.email-updates-row input {
+  width: 18px;
+  height: 18px;
+  accent-color: #1a7f37;
+}
+
+.thank-you-volunteer {
+  margin-bottom: 24px;
+}
+
+.thank-you-closing {
+  font-size: 14px;
+  color: #1a7f37;
+  font-style: italic;
+}
+
+@media (max-width: 800px) {
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .thank-you-actions {
+    flex-direction: column;
+  }
+}

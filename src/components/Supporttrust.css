@@ -1,0 +1,55 @@
+.support-trust {
+  padding: 20px 0 60px;
+}
+
+.support-trust h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #121217;
+  margin-bottom: 12px;
+}
+
+.support-trust > .container > p {
+  font-size: 15px;
+  color: #667085;
+  max-width: 900px;
+  margin-bottom: 24px;
+}
+
+.badge-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 60px;
+  padding: 0 20px;
+  border-radius: 8px;
+  border: 1px solid;
+  font-weight: 700;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+.badge-icon {
+  font-size: 16px;
+}
+
+.badge-green {
+  border-color: #1a7f37;
+  color: #1a7f37;
+}
+
+.badge-blue {
+  border-color: #108ded;
+  color: #108ded;
+}
+
+.badge-red {
+  border-color: #d92d20;
+  color: #d92d20;
+}
