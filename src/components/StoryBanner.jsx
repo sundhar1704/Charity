@@ -1,5 +1,5 @@
 import "./StoryBanner.css";
-import storybannerImg from "../assets/images/Depth6,Frame6.jpg";
+import storybannerImg from "../assets/Images/Depth6,Frame6.jpg";
 
 export default function StoryBanner() {
   return (

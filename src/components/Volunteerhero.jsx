@@ -1,7 +1,7 @@
 import "./VolunteerHero.css";
 
 // Replace src with your linked illustration
-import volunteerHeroImg from "../assets/images/Depth4,Frame0.jpg";
+import volunteerHeroImg from "../assets/Images/Depth4,Frame0.jpg";
 
 export default function VolunteerHero() {
   return (
