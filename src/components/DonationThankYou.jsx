@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./DonationThankYou.css";
 
-import thankYouHeroImg from "../assets/images/Depth6,Frame11.jpg";
+import thankYouHeroImg from "../assets/Images/Depth6,Frame11.jpg";
 
 // Replace these three with your own linked images per card
 import educationImpactImg from "../assets/Images/Depth7,Frame6.jpg";
