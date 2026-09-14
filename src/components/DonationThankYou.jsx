@@ -2,12 +2,12 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./DonationThankYou.css";
 
-import thankYouHeroImg from "../assets/images/Depth 6, Frame 11.jpg";
+import thankYouHeroImg from "../assets/images/Depth6,Frame11.jpg";
 
 // Replace these three with your own linked images per card
-import educationImpactImg from "../assets/images/Depth 7, Frame 6.jpg";
-import mealsImpactImg from "../assets/images/Depth 7, Frame 7.jpg";
-import healthcareImpactImg from "../assets/images/Depth 7, Frame 8.jpg";
+import educationImpactImg from "../assets/images/Depth7,Frame6.jpg";
+import mealsImpactImg from "../assets/images/Depth7,Frame7.jpg";
+import healthcareImpactImg from "../assets/images/Depth7,Frame8.jpg";
 
 const impactItems = [
   {

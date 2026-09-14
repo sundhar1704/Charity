@@ -1,8 +1,8 @@
 import "./Causes.css";
-import EducationImg from "../assets/images/Depth 7, Frame 1.jpg";
-import MedicalImg from "../assets/images/Depth 7, Frame 3.jpg";
-import FoodImg from "../assets/images/Depth 7, Frame 2.jpg";
-import DisasterImg from "../assets/images/Depth 7, Frame 0.jpg";
+import EducationImg from "../assets/images/Depth7,Frame1.jpg";
+import MedicalImg from "../assets/images/Depth7,Frame3.jpg";
+import FoodImg from "../assets/images/Depth7,Frame2.jpg";
+import DisasterImg from "../assets/images/Depth7,Frame0.jpg";
 const causes = [
   {
     title: "Education for Children",

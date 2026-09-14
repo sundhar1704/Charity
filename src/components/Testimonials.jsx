@@ -1,7 +1,7 @@
 import "./Testimonials.css";
-import SophiaImg from "../assets/images/Depth 7, Frame 4.jpg";
-import EthanImg from "../assets/images/Depth 7, Frame 5.jpg";
-import OliviaImg from "../assets/images/Depth 8, Frame 0.jpg";
+import SophiaImg from "../assets/images/Depth7,Frame4.jpg";
+import EthanImg from "../assets/images/Depth7,Frame5.jpg";
+import OliviaImg from "../assets/images/Depth8,Frame0.jpg";
 
 const testimonials = [
   {

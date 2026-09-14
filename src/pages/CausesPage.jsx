@@ -4,10 +4,10 @@ import CausesHeader from "../components/CausesHeader";
 import CauseRow from "../components/CauseRow";
 
 // Replace each import with your own linked image for that cause
-import HealthcareImg from "../assets/images/Depth 6, Frame 7.jpg";
-import EducationImg from "../assets/images/Depth 6, Frame 8.jpg";
-import PovertyImg from "../assets/images/Depth 6, Frame 9.jpg";
-import EnvironmentImg from "../assets/images/Depth 6, Frame 10.jpg";
+import HealthcareImg from "../assets/images/Depth6,Frame7.jpg";
+import EducationImg from "../assets/images/Depth6,Frame8.jpg";
+import PovertyImg from "../assets/images/Depth6,Frame9.jpg";
+import EnvironmentImg from "../assets/images/Depth6,Frame10.jpg";
 
 const causesData = [
   {
