@@ -5,9 +5,9 @@ import "./DonationThankYou.css";
 import thankYouHeroImg from "../assets/images/Depth6,Frame11.jpg";
 
 // Replace these three with your own linked images per card
-import educationImpactImg from "../assets/images/Depth7,Frame6.jpg";
-import mealsImpactImg from "../assets/images/Depth7,Frame7.jpg";
-import healthcareImpactImg from "../assets/images/Depth7,Frame8.jpg";
+import educationImpactImg from "../assets/Images/Depth7,Frame6.jpg";
+import mealsImpactImg from "../assets/Images/Depth7,Frame7.jpg";
+import healthcareImpactImg from "../assets/Images/Depth7,Frame8.jpg";
 
 const impactItems = [
   {
