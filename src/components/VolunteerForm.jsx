@@ -1,5 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
 import Dropdown from "./Dropdown";
+import { useAuth } from "../context/AuthContext";
 import "./VolunteerForm.css";
 
 const interestOptions = [
@@ -14,6 +16,10 @@ const availabilityOptions = ["Weekdays", "Weekends", "Evenings", "Flexible"];
 const STORAGE_KEY = "hopehands-volunteers";
 
 export default function VolunteerForm() {
+  const { user, isLoggedIn } = useAuth();
+  const navigate = useNavigate();
+  const location = useLocation();
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -21,8 +27,29 @@ export default function VolunteerForm() {
   const [availability, setAvailability] = useState("");
   const [status, setStatus] = useState("idle"); // "idle" | "loading" | "done"
 
+  // fill name & email from the logged-in account
+  useEffect(() => {
+    if (user) {
+      setName(user.name);
+      setEmail(user.email);
+    }
+  }, [user]);
+
+  // pre-select the cause if we arrived here from a "Donate for this cause" button
+  useEffect(() => {
+    const incoming = location.state?.interest;
+    if (incoming && interestOptions.includes(incoming)) {
+      setInterest(incoming);
+    }
+  }, [location.state]);
+
   function handleSubmit(e) {
     e.preventDefault();
+
+    if (!isLoggedIn) {
+      navigate("/login", { state: { from: "/volunteer" } });
+      return;
+    }
 
     if (!name || !email || !interest || !availability) {
       alert("Please fill in your name, email, area of interest, and availability.");
